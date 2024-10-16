@@ -3,8 +3,8 @@ import React from "react";
 
 const Footer = () => {
   return (
-    <div className="h-12 md:h-24 p-4 lg:px-20 xl:px-40 text-red-500 flex items-center justify-between">
-      <Link href="/" className="font-bold text-xl">MASSIMO</Link>
+    <div style={{ color: '#3F4427' }} className="h-12 md:h-24 p-4 lg:px-20 xl:px-40 flex items-center justify-between">
+      <Link href="/" className="font-bold text-xl">inspiraCook</Link>
       <p>© ALL RIGHTS RESERVED.</p>
     </div>
   );

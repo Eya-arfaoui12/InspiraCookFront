@@ -358,9 +358,7 @@ export const singleProduct: Product = {
 
 type Menu = {
   id: number;
-  slug: string;
   title: string;
-  desc?: string;
   img?: string;
   color: string;
 }[];
@@ -368,26 +366,69 @@ type Menu = {
 export const menu: Menu = [
   {
     id: 1,
-    slug: "pastas",
-    title: "Italian Pastas",
-    desc: "Savor the taste of perfection with our exquisite Italian handmade pasta menu.",
-    img: "/temporary/m1.png",
+    title: "Petit-Déjeuner",
+    img: "/temporary/m1.jpg",
     color: "white",
   },
   {
     id: 2,
-    slug: "burgers",
-    title: "Juicy Burgers",
-    desc: "Burger Bliss: Juicy patties, bold flavors, and gourmet toppings galore.",
-    img: "/temporary/m2.png",
+    title: "Déjeuner",
+    img: "/temporary/m2.jpg",
     color: "black",
   },
   {
     id: 3,
-    slug: "pizzas",
-    title: "Cheesy Pizzas",
-    desc: "Pizza Paradise: Irresistible slices, mouthwatering toppings, and cheesy perfection.",
-    img: "/temporary/m3.png",
+    title: "Dîner ",
+    img: "/temporary/m3.jpg",
     color: "white",
   },
+  {
+    id: 4,
+    title: "Collations",
+    img: "/temporary/m4.jpg",
+    color: "black",
+  },
+  {
+    id: 5,
+    title: "Desserts",
+    img: "/temporary/m5.jpg",
+    color: "white",
+  },
+  {
+    id: 6,
+    title: "Repas végétariens",
+    img: "/temporary/m6.jpg",
+    color: "black",
+  },
+  {
+    id: 7,
+    title: "Repas sans gluten",
+    img: "/temporary/m7.jpg",
+    color: "white",
+  },
+  {
+    id: 8,
+    title: "Repas Enfants",
+    img: "/temporary/m8.jpg",
+    color: "black",
+  },
+  {
+    id: 9,
+    title: "Repas riches en protéines",
+    img: "/temporary/m9.jpg",
+    color: "white",
+  },
+  {
+    id: 10,
+    title: "Repas rapides",
+    img: "/temporary/m10.jpg",
+    color: "black",
+  },
+  {
+    id: 11,
+    title: "Repas de saison",
+    img: "/temporary/m11.jpg",
+    color: "white",
+  },
+  
 ];
